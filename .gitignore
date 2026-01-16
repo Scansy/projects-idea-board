@@ -1,0 +1,9 @@
+#Dependencies 
+node_modules/
+
+.env 
+
+#for the compiled typescript->js thing
+dist/ 
+
+*.log

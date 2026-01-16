@@ -1,0 +1,33 @@
+{
+  "name": "projects-idea-board",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Pinterest-inspired site to help give computer science students project ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scansy/projects-idea-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scansy/projects-idea-board/issues"
+  },
+  "homepage": "https://github.com/Scansy/projects-idea-board#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
