@@ -4,7 +4,6 @@ import './App.css';
 function App(): JSX.Element {
   const testFunction = (): void => {
     alert('working');
-
     const request = new XMLHttpRequest();
 
     request.addEventListener('readystatechange', () => {
